@@ -1,7 +1,13 @@
-import ListGroup from './components/ListGroup';
+import ListGroup from "./components/ListGroup";
+import GithubCal from "./components/GithubCal";
 
 function App() {
-  return <div><ListGroup /></div>
+  return (
+    <>
+      <ListGroup />
+      <GithubCal />
+    </>
+  );
 }
 
-export default App
+export default App;
